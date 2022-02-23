@@ -6,7 +6,7 @@ app.use(express.json());
 
 app.post("/:id", (req, res) => {
   console.log(req.body);
-  res.send("Hola mundo!");
+  res.send("Hola a todos");
 });
 
 app.listen(port, () => {
